@@ -1,16 +1,1 @@
-# Readme Generator
-
-  ## Description
-  Produces professional readme files
-
-  ## Installation
-  answer questions
-
-  ## Usage
-  answer questiosn
-
-  ## Contributors
-  ME
-
-  ## Test Instructions
-  Just do it
+![License](https://img.shields.io/badge/License-Apache-License-2.0-orange)
