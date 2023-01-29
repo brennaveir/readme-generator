@@ -48,29 +48,29 @@ function generateMarkdown(data, badge, link, section) {
 - [Installation](#installation)
 - [Usage](#usage)
 - [Contributors](#contributors)
-- [Test](#test instructions)
+- [Test](#test-instructions)
 - [License](#License)
 - [Questions](#questions)
   
 
   ## Description
-  ${data.description}
+    ${data.description}
 
   ## Installation
-  ${data.installation}
+   ${data.installation}
 
   ## Usage
-  ${data.usage}
+    ${data.usage}
 
   ## Contributors
-  ${data.contributors}
+    ${data.contributors}
 
   ## Test Instructions
-  ${data.test}
+    ${data.test}
 
   ## License
-  ${renderLicenseLink(data,link)}
-  ${renderLicenseSection(data,section)}
+    ${renderLicenseLink(data,link)}
+    ${renderLicenseSection(data,section)}
 
   ## Questions 
   If there are any additional questions, feel free to reach out by email or github.
