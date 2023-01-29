@@ -1,15 +1,24 @@
 const licenses = require('./licenses')
+let link;
+let badge;
+let section;
 
 // TODO: Create a function that returns a license badge based on which license is passed in
 // If there is no license, return an empty string
 function renderLicenseBadge(data) {
   if (data.license !== "none") {
-    const license = data.license.split(" ").join("-");
-    const badge = `![License](https://img.shields.io/badge/License-${license}-orange)`
-    return badge;
+    licenses.forEach((array) => {
+      if (data.license === array.license) {
+       badge = array.badge;
+       console.log(badge) 
+       
+      }
+     
+    })
+    return badge 
   }
-  else return "";
 
+  else return ""
 }
 
 // TODO: Create a function that returns the license link
@@ -17,12 +26,16 @@ function renderLicenseBadge(data) {
 function renderLicenseLink(data) {
   // console.log(license, badge)
   if (data.license !== "none") {
-   licenses.forEach((array) => {
-    if (data.license === array.license)
-   console.log(array.link)
-   })
-    }
-  
+    licenses.forEach((array) => {
+      if (data.license === array.license) {
+        link = array.link;
+        console.log(link)
+        
+      }
+      
+      })
+     return link 
+   }
 else return ""
 }
 
@@ -30,49 +43,57 @@ else return ""
 // If there is no license, return an empty string
 function renderLicenseSection(data) {
   if (data.license !== "none") {
-   
-  console.log(data.license)
+    licenses.forEach((array) => {
+      if (data.license === array.license) {
+        section = array.section;
+        console.log(array.section)
+        
+      }
+      
+    })
+    return section
   }
+
   else return ""
 }
 
 // TODO: Create a function to generate markdown for README
-function generateMarkdown(data, badge, link, section) {
+function generateMarkdown(data) {
   return `
 # ${data.title}
   
-  ${renderLicenseBadge(data, badge)}
+  ${renderLicenseBadge(data)}
   
   ## Table of Contents (
 
--[Description](#decription)
-- [Installation](#installation)
-- [Usage](#usage)
-- [Contributors](#contributors)
-- [Test](#test-instructions)
-- [License](#License)
-- [Questions](#questions)
+      -[Description](#decription)
+      - [Installation](#installation)
+      - [Usage](#usage)
+      - [Contributors](#contributors)
+      - [Test](#test-instructions)
+      - [License](#License)
+      - [Questions](#questions)
   
 
   ## Description
-    ${data.description}
+      ${data.description}
 
   ## Installation
-   ${data.installation}
+    ${data.installation}
 
   ## Usage
-    ${data.usage}
+      ${data.usage}
 
   ## Contributors
-    ${data.contributors}
+      ${data.contributors}
 
   ## Test Instructions
-    ${data.test}
+      ${data.test}
 
   ## License
-    ${data.license}
-    ${renderLicenseLink(data,link)}
-    ${renderLicenseSection(data,section)}
+      ${data.license}
+      ${renderLicenseLink(data)}
+      ${renderLicenseSection(data)}
 
   ## Questions 
   If there are any additional questions, feel free to reach out by email or github.
