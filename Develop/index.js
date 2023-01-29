@@ -9,16 +9,6 @@ const generateMarkdown = require('./utils/generateMarkdown.js')
 const questions = [
         {
           type: 'input',
-          name: 'fullName',
-          message: 'What is your name?',
-        },
-        {
-            type: 'input',
-            name: 'year',
-            message: 'What is the year your application was written?',
-          },
-        {
-          type: 'input',
           name: 'title',
           message: 'What is your application title?',
         },

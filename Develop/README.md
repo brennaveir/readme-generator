@@ -1,7 +1,7 @@
 
-# undefined
+# Readme Generator
   
-  [![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
+  [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
   
   ## Table of Contents (
 
@@ -15,34 +15,34 @@
   
 
   ## Description
-      undefined
+      Produces a professional readme created from user input from node.js
 
   ## Installation
-    undefined
+    initiate with node index.html
 
   ## Usage
-      undefined
+      use when a professional readme is required for a project by answering the prompts
 
   ## Contributors
-      undefined
+      Brenn Voyles
 
   ## Test Instructions
-      undefined
+      None are needed at this time
 
   ## License
-      Apache License 2.0
-      http://www.apache.org/licenses/LICENSE-2.0
-      Licensed under the Apache License, Version 2.0 (the "License");
-      you may not use this file except in compliance with the License.
+      MIT License
+      https://spdx.org/licenses/MIT.html
       
-       Unless required by applicable law or agreed to in writing, software
-      distributed under the License is distributed on an "AS IS" BASIS,
-      WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-      See the License for the specific language governing permissions and
-      limitations under the License.
+        Permission is hereby granted, free of charge, to any person obtaining a copy
+    of this software and associated documentation files (the "Software"), to deal
+    in the Software without restriction, including without limitation the rights
+    to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+    copies of the Software, and to permit persons to whom the Software is
+    furnished to do so.
+    
 
   ## Questions 
   If there are any additional questions, feel free to reach out by email or github.
-  Email: undefined
-  Github: undefined
+  Email: brennaveir@hotmail.com
+  Github: brennaveir
 
