@@ -2,51 +2,51 @@
 const inquirer = require('inquirer')
 const fs = require('fs/promises');
 const generateMarkdown = require('./utils/generateMarkdown.js')
-const renderLicenseBadge = require('./utils/generateMarkdown.js')
+
 
 
 // TODO: Create an array of questions for user input
 const questions = [
-        {
-          type: 'input',
-          name: 'title',
-          message: 'What is your application title?',
-        },
-        {
-          type: 'input',
-          name: 'description',
-          message: 'What is the description?',
-        },
-        {
-          type: 'input',
-          name: 'installation',
-          message: 'What are the installation instructions?',
-        },
-        {
-          type: 'input',
-          name: 'usage',
-          message: 'What is the usage information?',
-        },
-        {
-          type: 'input',
-          name: 'contributors',
-          message: 'Who are the contributors?',
-        },
-        {
-          type: 'input',
-          name: 'test',
-          message: 'What are the test instructions?',
-        },
-        {
-          type: 'input',
-          name: 'github',
-          message: 'What is your github username?'
-        },
-        {
-          type: 'input',
-          name: 'email',
-          message: 'What is your email?'
-        },
+        // {
+        //   type: 'input',
+        //   name: 'title',
+        //   message: 'What is your application title?',
+        // },
+        // {
+        //   type: 'input',
+        //   name: 'description',
+        //   message: 'What is the description?',
+        // },
+        // {
+        //   type: 'input',
+        //   name: 'installation',
+        //   message: 'What are the installation instructions?',
+        // },
+        // {
+        //   type: 'input',
+        //   name: 'usage',
+        //   message: 'What is the usage information?',
+        // },
+        // {
+        //   type: 'input',
+        //   name: 'contributors',
+        //   message: 'Who are the contributors?',
+        // },
+        // {
+        //   type: 'input',
+        //   name: 'test',
+        //   message: 'What are the test instructions?',
+        // },
+        // {
+        //   type: 'input',
+        //   name: 'github',
+        //   message: 'What is your github username?'
+        // },
+        // {
+        //   type: 'input',
+        //   name: 'email',
+        //   message: 'What is your email?'
+        // },
         {
           type: 'list',
           name: 'license',

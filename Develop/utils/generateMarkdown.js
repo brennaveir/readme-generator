@@ -1,4 +1,4 @@
-
+const licenses = require('./licenses')
 
 // TODO: Create a function that returns a license badge based on which license is passed in
 // If there is no license, return an empty string
@@ -17,10 +17,12 @@ function renderLicenseBadge(data) {
 function renderLicenseLink(data) {
   // console.log(license, badge)
   if (data.license !== "none") {
-    const license = data.license.split(" ").join("-");
-    const link = "link";
-    return link;
-  }
+   licenses.forEach((array) => {
+    if (data.license === array.license)
+   console.log(array.link)
+   })
+    }
+  
 else return ""
 }
 
@@ -28,9 +30,8 @@ else return ""
 // If there is no license, return an empty string
 function renderLicenseSection(data) {
   if (data.license !== "none") {
-    const license = data.license.split(" ").join("-");
-    const section = "section";
-  return section;
+   
+  console.log(data.license)
   }
   else return ""
 }
@@ -69,6 +70,7 @@ function generateMarkdown(data, badge, link, section) {
     ${data.test}
 
   ## License
+    ${data.license}
     ${renderLicenseLink(data,link)}
     ${renderLicenseSection(data,section)}
 
