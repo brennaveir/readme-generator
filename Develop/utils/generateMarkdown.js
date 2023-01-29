@@ -1,12 +1,14 @@
+
+
 // TODO: Create a function that returns a license badge based on which license is passed in
 // If there is no license, return an empty string
 function renderLicenseBadge(data) {
   if (data.license !== "none") {
     const license = data.license.split(" ").join("-");
     const badge = `![License](https://img.shields.io/badge/License-${license}-orange)`
-    generateMarkdown(data, badge);
+    return badge;
   }
-  else data.license === "";
+  else return "";
 
 }
 
@@ -16,10 +18,10 @@ function renderLicenseLink(data) {
   // console.log(license, badge)
   if (data.license !== "none") {
     const license = data.license.split(" ").join("-");
-    const link = "";
-    generateMarkdown(data, link);
+    const link = "link";
+    return link;
   }
-
+else return ""
 }
 
 // TODO: Create a function that returns the license section of README
@@ -27,17 +29,18 @@ function renderLicenseLink(data) {
 function renderLicenseSection(data) {
   if (data.license !== "none") {
     const license = data.license.split(" ").join("-");
-    const section = "";
-    generateMarkdown(data, section);
+    const section = "section";
+  return section;
   }
+  else return ""
 }
 
 // TODO: Create a function to generate markdown for README
-function generateMarkdown(data) {
+function generateMarkdown(data, badge, link, section) {
   return `
 # ${data.title}
   
-  ${renderLicenseBadge}
+  ${renderLicenseBadge(data, badge)}
   
   ## Table of Contents (
 
@@ -66,15 +69,15 @@ function generateMarkdown(data) {
   ${data.test}
 
   ## License
-  ${renderLicenseLink}
-  ${renderLicenseSection}
+  ${renderLicenseLink(data,link)}
+  ${renderLicenseSection(data,section)}
 
   ## Questions 
   If there are any additional questions, feel free to reach out by email or github.
-  Email: ${email}
-  Github: https://github.com/${github}
+  Email: ${data.email}
+  Github: ${data.github}
 
 `;
 }
 
-module.exports = renderLicenseBadge;
+module.exports = generateMarkdown;
