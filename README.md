@@ -20,14 +20,12 @@ After the user answers all the prompts, a high-quality, professional README.md i
 description, table of contents, installation, usage, licesne, contributing, tests, and questions.
 
 
-## Screenshots
-
-[![Screenshot1](./Develop/utils/images/readme-generator-screenshot.png)
-[![Screenshot2](./Develop/utils/images/readme-generator-screenshot2.png)
-
 ## Usage
 This application is a command line application 
 that can be initiated by typing <node index.js> into the command line.
+
+[![Screenshot1](./Develop/utils/images/readme-generator-screenshot.png)
+[![Screenshot2](./Develop/utils/images/readme-generator-screenshot2.png)
 
 [Watch video here for tutorial](https://watch.screencastify.com/v/HXBpm3U3fwf7MeYbyt7N)
 
