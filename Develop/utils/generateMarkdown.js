@@ -90,9 +90,9 @@ function generateMarkdown(data) {
   ## Questions 
   If there are any additional questions, feel free to reach out by email or github.
   
-  Email: ${data.email}
+  Email: [${data.email}](mailto:${data.email})
   
-  Github: ${data.github}
+  Github: [${data.github}](https://github.com/${data.github})
 
 `;
 }

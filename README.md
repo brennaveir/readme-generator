@@ -2,15 +2,15 @@
   
   [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
   
-  ## Table of Contents (
+  ## Table of Contents 
 
-      -[Description](#decription)
-      - [Installation](#installation)
-      - [Usage](#usage)
-      - [Contributors](#contributors)
-      - [Test](#test-instructions)
-      - [License](#License)
-      - [Questions](#questions)
+   -[Description](#decription)
+  - [Installation](#installation)
+  - [Usage](#usage)
+  - [Contributors](#contributors)
+   -[Test](#test-instructions)
+  - [License](#License)
+  - [Questions](#questions)
   
 
   ## Description
@@ -35,7 +35,7 @@
   ## License
   [MIT License](https://spdx.org/licenses/MIT.html)
       
-        Permission is hereby granted, free of charge, to any person obtaining a copy
+    Permission is hereby granted, free of charge, to any person obtaining a copy
     of this software and associated documentation files (the "Software"), to deal
     in the Software without restriction, including without limitation the rights
     to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
