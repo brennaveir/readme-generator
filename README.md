@@ -26,13 +26,14 @@
   ## Usage
       This application is a command line application 
       that can be initiated by typing <node index.js> into the command line.
+      
+  [Watch video here for tutorial](https://watch.screencastify.com/v/3dxtgEnC2GimAKuEFovY)
 
   ## Contributors
       Brenn Voyles
 
   ## License
-      MIT License
-      https://spdx.org/licenses/MIT.html
+  [MIT License](https://spdx.org/licenses/MIT.html)
       
         Permission is hereby granted, free of charge, to any person obtaining a copy
     of this software and associated documentation files (the "Software"), to deal
