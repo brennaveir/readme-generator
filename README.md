@@ -20,7 +20,8 @@
 
 
 ## Screenshots
-
+[![Screenshot1](./Develop/utils/images/readme-generator-screenshot.png)
+[![Screenshot2](./Develop/utils/images/readme-generator-screenshot2.png)
 
   ## Usage
       This application is a command line application 
