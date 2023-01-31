@@ -29,7 +29,7 @@ description, table of contents, installation, usage, licesne, contributing, test
 This application is a command line application 
 that can be initiated by typing <node index.js> into the command line.
 
-[Watch video here for tutorial](https://watch.screencastify.com/v/3dxtgEnC2GimAKuEFovY)
+[Watch video here for tutorial](https://watch.screencastify.com/v/HXBpm3U3fwf7MeYbyt7N)
 
 ## Contributors
 
