@@ -53,46 +53,46 @@ function renderLicenseSection(data) {
 function generateMarkdown(data) {
   return `
 # ${data.title}
-  
-  ${renderLicenseBadge(data)}
-  
-  ## Table of Contents (
 
-      -[Description](#decription)
-      - [Installation](#installation)
-      - [Usage](#usage)
-      - [Contributors](#contributors)
-      - [Test](#test-instructions)
-      - [License](#License)
-      - [Questions](#questions)
-  
+${renderLicenseBadge(data)}
 
-  ## Description
-      ${data.description}
+## Table of Contents (
 
-  ## Installation
-    ${data.installation}
+- [Description](#decription)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Contributors](#contributors)
+- [Test](#test-instructions)
+- [License](#License)
+- [Questions](#questions)
 
-  ## Usage
-      ${data.usage}
 
-  ## Contributors
-      ${data.contributors}
+## Description
+${data.description}
 
-  ## Test Instructions
-      ${data.test}
+## Installation
+${data.installation}
 
-  ## License
-  ${renderLicenseLink(data)}
-      
-     ${renderLicenseSection(data)}
+## Usage
+${data.usage}
 
-  ## Questions 
-  If there are any additional questions, feel free to reach out by email or github.
-  
-  Email: [${data.email}](mailto:${data.email})
-  
-  Github: [${data.github}](https://github.com/${data.github})
+## Contributors
+${data.contributors}
+
+## Test Instructions
+${data.test}
+
+## License
+${renderLicenseLink(data)}
+
+${renderLicenseSection(data)}
+
+## Questions 
+If there are any additional questions, feel free to reach out by email or github.
+
+Email: [${data.email}](mailto:${data.email})
+
+Github: [${data.github}](https://github.com/${data.github})
 
 `;
 }
