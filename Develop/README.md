@@ -1,44 +1,47 @@
+# Readme Generator
+  
+  [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+  
+  ## Table of Contents (
 
-# undefined
+      -[Description](#decription)
+      - [Installation](#installation)
+      - [Usage](#usage)
+      - [Contributors](#contributors)
+      - [Test](#test-instructions)
+      - [License](#License)
+      - [Questions](#questions)
+  
 
-[![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
-
-## Table of Contents (
-
--[Description](#decription)
-- [Installation](#installation)
-- [Usage](#usage)
-- [Contributors](#contributors)
-- [Test](#test-instructions)
-- [License](#License)
-- [Questions](#questions)
-
-
-## Description
-undefined
-
-## Installation
-undefined
-
-## Usage
-undefined
-
-## Contributors
-undefined
-
-## Test Instructions
-undefined
-
-## License
-Apache License 2.0
-http://www.apache.org/licenses/LICENSE-2.0
-
-Licensed under the Apache License, Version 2.0 (the "License");
-you may not use this file except in compliance with the License.
+  ## Description
+    This application is a command-line application that accept user input through prompts. After the user answers all the prompts, a high-quality, professional README.md is generated with the title of the project, description, table of contents, installation, usage, licesne, contributing, tests, and questions.
 
 
-## Questions 
-If there are any additional questions, feel free to reach out by email or github.
-Email: undefined
-Github: undefined
+## Screenshots
+
+
+  ## Usage
+      This application is a command line application that can be initiated by typing <node index.js> into the command line.
+
+  ## Contributors
+      Brenn Voyles
+
+  ## License
+      MIT License
+      https://spdx.org/licenses/MIT.html
+      
+        Permission is hereby granted, free of charge, to any person obtaining a copy
+    of this software and associated documentation files (the "Software"), to deal
+    in the Software without restriction, including without limitation the rights
+    to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+    copies of the Software, and to permit persons to whom the Software is
+    furnished to do so.
+    
+
+  ## Questions 
+  If there are any additional questions, feel free to reach out by email or github.
+  
+  Email: brennaveir
+  
+  Github: brennaveir
 

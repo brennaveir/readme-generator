@@ -91,9 +91,9 @@ function generateMarkdown(data) {
       ${data.test}
 
   ## License
-      ${data.license}
-      ${renderLicenseLink(data)}
-      ${renderLicenseSection(data)}
+  ${renderLicenseLink(data)}
+      
+     ${renderLicenseSection(data)}
 
   ## Questions 
   If there are any additional questions, feel free to reach out by email or github.
