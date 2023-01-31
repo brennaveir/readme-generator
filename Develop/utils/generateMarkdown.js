@@ -9,13 +9,11 @@ function renderLicenseBadge(data) {
   if (data.license !== "none") {
     licenses.forEach((array) => {
       if (data.license === array.license) {
-       badge = array.badge;
-       console.log(badge) 
-       
+        badge = array.badge;
       }
-     
+
     })
-    return badge 
+    return badge
   }
 
   else return ""
@@ -29,14 +27,11 @@ function renderLicenseLink(data) {
     licenses.forEach((array) => {
       if (data.license === array.license) {
         link = array.link;
-        console.log(link)
-        
       }
-      
-      })
-     return link 
-   }
-else return ""
+    })
+    return link
+  }
+  else return ""
 }
 
 // TODO: Create a function that returns the license section of README
@@ -46,10 +41,7 @@ function renderLicenseSection(data) {
     licenses.forEach((array) => {
       if (data.license === array.license) {
         section = array.section;
-        console.log(array.section)
-        
       }
-      
     })
     return section
   }

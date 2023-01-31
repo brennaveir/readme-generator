@@ -14,14 +14,17 @@
   
 
   ## Description
-    This application is a command-line application that accept user input through prompts. After the user answers all the prompts, a high-quality, professional README.md is generated with the title of the project, description, table of contents, installation, usage, licesne, contributing, tests, and questions.
+    This application is a command-line application that accept user input through prompts. 
+    After the user answers all the prompts, a high-quality, professional README.md is generated with the title of the project, 
+    description, table of contents, installation, usage, licesne, contributing, tests, and questions.
 
 
 ## Screenshots
 
 
   ## Usage
-      This application is a command line application that can be initiated by typing <node index.js> into the command line.
+      This application is a command line application 
+      that can be initiated by typing <node index.js> into the command line.
 
   ## Contributors
       Brenn Voyles
