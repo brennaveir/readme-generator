@@ -1,3 +1,4 @@
+//license info to be put into license section of readme
 const licenses = [
     {
         license: 'Apache License 2.0',
