@@ -1,33 +1,33 @@
 
-# Example
+# Title
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 ## Table of Contents (
 
-- [Description](#decription)
+- [Description](#description)
 - [Installation](#installation)
 - [Usage](#usage)
 - [Contributors](#contributors)
 - [Test](#test-instructions)
-- [License](#License)
+- [License](#license)
 - [Questions](#questions)
 
 
 ## Description
-Provide a short description explaining the what, why, and how of your project.
+Description
 
 ## Installation
-What are the steps required to install your project? Provide a step-by-step description of how to get the development environment running.
+Installation
 
 ## Usage
-Provide instructions and examples for use.
+Usage
 
 ## Contributors
-List your collaborators, if any, with links to their GitHub profiles.
+Contributors
 
 ## Test Instructions
-Go the extra mile and write tests for your application. Then provide examples on how to run them here.
+Test
 
 ## License
 [MIT License](https://spdx.org/licenses/MIT.html)
@@ -42,7 +42,7 @@ furnished to do so.
 ## Questions 
 If there are any additional questions, feel free to reach out by email or github.
 
-Email: [example@example.com](mailto:example@example.com)
+Email: [Email](mailto:Email)
 
-Github: [username](https://github.com/username)
+Github: [Github](https://github.com/Github)
 

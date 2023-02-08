@@ -58,12 +58,12 @@ ${renderLicenseBadge(data)}
 
 ## Table of Contents (
 
-- [Description](#decription)
+- [Description](#description)
 - [Installation](#installation)
 - [Usage](#usage)
 - [Contributors](#contributors)
 - [Test](#test-instructions)
-- [License](#License)
+- [License](#license)
 - [Questions](#questions)
 
 
